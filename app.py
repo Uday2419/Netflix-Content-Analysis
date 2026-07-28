@@ -117,7 +117,7 @@ with tab1:
     # Display chart
     st.plotly_chart(fig)
     
-    with tab2:
+with tab2:
     st.subheader("🌎 Top Countries")
 
     country = (
@@ -137,7 +137,7 @@ with tab1:
 
     st.plotly_chart(fig)
     
-    with tab3:
+with tab3:
     st.subheader("🎭 Popular Genres")
 
     genre = (
@@ -156,8 +156,6 @@ with tab1:
     )
 
     st.plotly_chart(fig)
-    
-    
     
 st.subheader("🔍 Search Netflix Titles")
 
