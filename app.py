@@ -26,7 +26,7 @@ st.write(
 # Load Dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"D:\Projects\Netflix-Data-Analysis\dataset\netflix_titles.csv")
+    df = pd.read_csv("dataset/netflix_titles.csv")
     return df
 
 
